@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Oswald:wght@200&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@100;300&family=Oswald:wght@200&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Horizons Architecture</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="menu-container" onclick="toggleMenu()">
+            <div id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <span id="menu-word">Menu</span>
+            </div>
+            <h1 class="logo">Infinite Horizons Architecture</h1>
+            <a href="#contact-us">Contact Us</a>
+        </header>
+        <nav id="main-menu">
+            <div class="container">
+                <div id="close-container" onclick="toggleMenu()">
+                    <div id="close-icon">
+                        <div class="close-bar close-bar1"></div>
+                        <div class="close-bar close-bar2"></div>
+                    </div>
+                    <button id="close-button">Close</button>
+                </div>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Project Gallery</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="white-line"></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="carousel-wrapper">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1600573472556-e636c2acda88?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80')"></div>
+                    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80')"></div>
+                    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1590725121839-892b458a74fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80')"></div>
+                    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1483959651481-dc75b89291f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=649&q=80')"></div>
+                    <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1600607686527-6fb886090705?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80')"></div>
+                </div>
+                <div class="carousel-dots">
+                    <div class="dot active" onclick="navigate(0)"></div>
+                    <div class="dot" onclick="navigate(1)"></div>
+                    <div class="dot" onclick="navigate(2)"></div>
+                    <div class="dot" onclick="navigate(3)"></div>
+                    <div class="dot" onclick="navigate(4)"></div>
+                </div>
+            </div>
+            <div class="carousel-background"></div>
+            <div class="carousel-overlay">
+                <div class="carousel-aboutus-content">
+                    <h2 class="aboutus-h2">Architecture and Design</h2>
+                    <h3 class="aboutus-h3">Where Imagination Meets the Infinite.</h3>
+                    <p class="short-aboutus">                        Infinite Horizons Architecture is a cutting-edge design firm specializing in innovative architectural solutions. With a focus on sustainability and aesthetics, we craft unique spaces that blend form and function. Our expertise in various design paradigms enables them to create structures that truly stand out as pieces of art.</p>
+                    <button class="short-aboutus-btn">About Us</button>
+                </div>
+            </div>
+        </div>
+        <section class="about-us">
+            <h1>About Us</h1>
+            <section class="aboutus-grid">
+                <article class="aboutus-text">
+                    <h2>Creative Solution by Professional Designers</h2>
+                    <p>Infinite Horizons Architecture, based in New York City, is an innovative design firm that specializes in creating unique, sustainable, and aesthetically pleasing structures. Since 2008, we have approached architecture as an art form without boundaries, consistently pushing the limits of design. Our highly skilled team of architects and designers works closely with clients to ensure that their visions are translated into reality. </p>
+                    <p>From residential homes to corporate offices, our projects reflect our commitment to excellence and our belief in the endless possibilities of architectural design. With a strong focus on sustainability, we craft buildings that are as environmentally responsible as they are beautiful. At Infinite Horizons Architecture, we are dedicated to enhancing lives, transforming communities, and building a future where imagination meets the infinite.</p>
+                    <button class="short-aboutus-btn">About Us</button>
+                </article>
+                <section class="aboutus-background">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="">
+                </section>
+            </section>
+        </section>
+        <section class="project_gallery">
+            <h1>Projects Gallery</h1>
+            <div class="gallery-carousel">
+                <div class="slide active">
+                    <div class="big-image-projects">
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Project Icarus</span>
+                            </div>
+                            <img class="big-image" src="https://images.unsplash.com/photo-1513804277545-af322c6d7f44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="small-image-projects">
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Image 2</span>
+                            </div>
+                            <img class="small-image" src="https://plus.unsplash.com/premium_photo-1679496470437-a09743179634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Image 2">
+                        </a>
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Image 3</span>
+                            </div>
+                            <img class="small-image" src="https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Image 3">
+                        </a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="big-image-projects">
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Image 4</span>
+                            </div>
+                            <img class="big-image" src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="small-image-projects">
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Image 5</span>
+                            </div>
+                            <img class="small-image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Image 5">
+                        </a>
+                        <a href="" class="image-wrapper">
+                            <div class="gallery-overlay">
+                                <span class="image-description">Image 6</span>
+                            </div>
+                            <img class="small-image" src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Image 6">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="prev">←</button>
+                <span id="current-slide">1</span>/<span id="total-slides">2</span>
+                <button id="next">→</button>
+            </div>
+        </section>
+        <section class="services">
+            <h1 class="services-h1">We Provide More than Just Quality Services</h1>
+            <div class="services-grid">
+                <div class="service-type">
+                    <a class="service-link" href="#">
+                        <div class="service-type-left">
+                            <h1>Kitchen Design</h1>
+                            <p>Unlock the full potential of your culinary space with our kitchen design service.</p>
+                        </div>
+                    </a>
+                    <a class="service-link" href="#">
+                        <div class="service-type-left">
+                            <h1>Home Design</h1>
+                            <p>Transform your dream home into a tangible reality with our home design service.</p>
+                        </div>
+                    </a>
+                    <a class="service-link" href="#">
+                        <div class="service-type-left2">
+                            <h1>Office Design</h1>
+                            <p>Revitalize your workspace with our office design service, blending functionality and aesthetics.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-image">
+                    <img class="service-image-middle active" src="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="">
+                    <img class="service-image-middle" src="https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="">
+                    <img class="service-image-middle" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80" alt="">
+                    <img class="service-image-middle" src="https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80" alt="">
+                    <img class="service-image-middle" src="https://images.unsplash.com/photo-1515902542059-54a400cc66fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="">
+                    <img class="service-image-middle" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="">
+                </div>
+                <div class="service-type">
+                    <a class="service-link" href="#">
+                        <div class="service-type-right">
+                            <h1>Light Decoration</h1>
+                            <p>Transform the ambiance of your space with our light decoration service.</p>
+                        </div>
+                    </a>
+                    <a class="service-link" href="#">
+                        <div class="service-type-right">
+                            <h1>Colour Design</h1>
+                            <p>Breathe life into your spaces with our colour design service, where we curate a personalized color palette for you.</p>
+                        </div>
+                    </a>
+                    <a class="service-link" href="#">
+                        <div class="service-type-right2">
+                            <h1>Property Staging</h1>
+                            <p>Transform your property into a desirable and market-ready asset with our professional staging service, designed to highlight your property's strengths.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="blog">
+            <h1 class="blog-h1">Our Latest Blogs</h1>
+            <section class="blog-grid">
+                <a class="blog-background-1" href="">
+                    <div class="blog-content">
+                        <h4>August 6, 2023</h4>
+                        <h2>Tips for Decorating Kids-Friendly House</h2>
+                    </div>
+                </a>
+                <a class="blog-background-2" href="">
+                    <div class="blog-content">
+                        <h4>August 6, 2023</h4>
+                        <h2>Creative Storage and Space Design for better living </h2>
+                    </div>
+                </a>
+                <a class="blog-background-3" href="">
+                    <div class="blog-content">
+                        <h4>August 6, 2023</h4>
+                        <h2>A Greener Living Space: An achievable challenge </h2>
+                    </div>
+                </a>
+                </section>
+            </section>
+        </section>
+        <section class="contact-us">
+            <h1>Contact Us</h1>
+            <section class="contactus-grid">
+                <form class="contactus-text">
+                    <h2>Let us know your concerns and we will design you a solution</h2>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="tel" id="phone" placeholder="+61 4__ ___ ___" pattern="^\+61 4\d{2} \d{3} \d{3}$" required>
+                    <textarea id="request" placeholder="Please write your request here, we will contact you within 5 business days" maxlength="200" required></textarea>
+                    <button class="submit-btn">Submit</button>
+                </form>
+                <div class="contact-background">
+                    <div class="social-icons">
+                        <a class="twitter" href="#"><img src="https://cdn-icons-png.flaticon.com/512/124/124021.png" alt=""></a>
+                        <a class="instagram" href="#"><img src="https://img.freepik.com/free-icon/instagram_318-566741.jpg" alt=""></a>
+                        <a class="facebook" href="#"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt=""></a>
+                    </div>
+                    <div class="contact-overlay" onclick="openMap()">
+                        <span>Office Direction</span>
+                    </div>
+                    <img id="map-image" src="https://i.stack.imgur.com/fuqcj.jpg" alt="Office Map">
+                </div>
+            </section>
+        </section>
+        <footer>
+            <div class="container footer-content">
+                <p>© 2023 Infinite Horizons Architecture</p>
+                <p>infinite@architecture.com.au</p>
+            </div>
+        </footer>
+        <p class="copyright">© 2023 Infinite Horizons Architecture. All rights reserved.</p>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
